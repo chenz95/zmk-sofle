@@ -8,15 +8,15 @@ manifest:
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
     - name: gpeye
       url-base: https://github.com/GPeye
-    - name: zmk_helper
-      url-base: https://github.com/urob/zmk-helpers.git
+    - name: urob
+      url-base: https://github.com/urob
   projects:
     - name: mario-peripheral-animation
       remote: gpeye
       revision: main 
-    - name: zmk_helpers
-      remote: zmk_helper
-      revision: main 
+    - name: zmk-helpers
+      remote: urob
+      revision: main
     - name: zmk
       remote: zmkfirmware
       revision: main
