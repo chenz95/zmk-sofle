@@ -66,36 +66,36 @@
 
         layer_1 {
             bindings = <
-&kp F12     &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &trans
-&trans      &kp HOME         &kp END         &kp UP_ARROW     &kp DELETE       &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
-&trans      &unicode U_AE    &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW  &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
+&kp F12         &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &trans
+&trans          &kp HOME         &kp END         &kp UP_ARROW     &kp DELETE       &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
+&trans          &unicode U_AE    &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW  &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp LEFT_SHIFT  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
+&kp C_MUTE      &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
-            display-name = "layer1";
+            display-name = "left-l1";
             sensor-bindings = <&scroll_encoder>;
         };
 
         right-l1 {
             bindings = <
-&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6   &kp F7          &kp F8          &kp F9           &kp F10      &unicode U_SZ
-&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &macro1  &unicode U_UE          &kp UP_ARROW    &unicode U_OE          &kp UNDER    &kp PLUS
-&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LBRC     &kp RBRC
-&trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans   &trans          &sys_reset      &soft_off        &bootloader  &trans
-&trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans   &trans          &trans          &trans           &trans
+&kp TILDE       &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6   &kp F7          &kp F8          &kp F9           &kp F10    &kp T
+&trans          &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &macro1  &kp T           &kp UP_ARROW    &kp T            &kp MINUS  &kp EQUAL
+&trans          &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LBRC   &kp RBRC
+&kp LEFT_SHIFT  &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans   &kp HOME        &kp END         &kp KP_NUMLOCK   &trans     &trans
+&trans          &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans   &trans          &trans          &trans           &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_3 {
+        right-l2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_COLOR_HSB(178,0,100)  &rgb_ug RGB_COLOR_HSB(195,35,69)  &rgb_ug RGB_COLOR_HSB(0,0,0)    &trans  &trans  &trans  &trans          &trans          &trans           &trans
+&trans  &rgb_ug RGB_TOG  &rgb_ug RGB_BRI  &rgb_ug RGB_HUI                   &rgb_ug RGB_SAI                   &rgb_ug RGB_EFF                 &trans  &trans  &trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans
+&trans  &trans           &rgb_ug RGB_BRD  &rgb_ug RGB_HUD                   &rgb_ug RGB_SAD                   &rgb_ug RGB_EFR                 &trans  &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans
+&trans  &trans           &trans           &trans                            &trans                            &trans                          &trans  &trans  &trans  &trans          &trans          &trans           &trans
+&trans  &trans           &trans           &trans                            &trans                            &trans                          &trans  &trans  &trans  &trans          &trans          &trans
             >;
         };
     };
