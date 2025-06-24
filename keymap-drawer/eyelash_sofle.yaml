@@ -143,7 +143,7 @@ layers:
   - F8
   - F9
   - F10
-  - T
+  - '&unicode U_SZ'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
@@ -152,9 +152,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - '&macro1'
-  - T
+  - '&unicode U_UE'
   - $$mdi:arrow-up-bold$$
-  - T
+  - '&unicode U_OE'
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
