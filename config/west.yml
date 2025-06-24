@@ -8,13 +8,19 @@ manifest:
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
     - name: gpeye
       url-base: https://github.com/GPeye
+    - name: zmk_helper
+      url: https://github.com/urob/zmk-helpers.git
   projects:
     - name: mario-peripheral-animation
       remote: gpeye
+      revision: main 
+    - name: zmk_helpers
+      remote: zmk_helper
       revision: main 
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+      
   self:
     path: boards
