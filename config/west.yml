@@ -9,7 +9,7 @@ manifest:
     - name: gpeye
       url-base: https://github.com/GPeye
     - name: zmk_helper
-      url: https://github.com/urob/zmk-helpers.git
+      url-base: https://github.com/urob/zmk-helpers.git
   projects:
     - name: mario-peripheral-animation
       remote: gpeye
