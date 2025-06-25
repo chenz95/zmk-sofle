@@ -92,8 +92,8 @@
         right-l2 {
             bindings = <
 &trans  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_COLOR_HSB(178,0,100)  &rgb_ug RGB_COLOR_HSB(195,35,69)  &rgb_ug RGB_COLOR_HSB(0,0,0)    &trans  &trans  &trans  &trans          &trans          &trans           &trans
-&trans  &rgb_ug RGB_TOG  &rgb_ug RGB_BRI  &rgb_ug RGB_HUI                   &rgb_ug RGB_SAI                   &rgb_ug RGB_EFF                 &trans  &trans  &trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans
-&trans  &trans           &rgb_ug RGB_BRD  &rgb_ug RGB_HUD                   &rgb_ug RGB_SAD                   &rgb_ug RGB_EFR                 &trans  &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans
+&trans  &rgb_ug RGB_TOG  &rgb_ug RGB_BRI  &rgb_ug RGB_HUI                   &rgb_ug RGB_SAI                   &rgb_ug RGB_EFF                 &trans  &trans  &trans  &mkp MCLK       &mmv MOVE_UP    &mkp RCLK        &trans
+&trans  &trans           &rgb_ug RGB_BRD  &rgb_ug RGB_HUD                   &rgb_ug RGB_SAD                   &rgb_ug RGB_EFR                 &trans  &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp LCLK
 &trans  &trans           &trans           &trans                            &trans                            &trans                          &trans  &trans  &trans  &trans          &trans          &trans           &trans
 &trans  &trans           &trans           &trans                            &trans                            &trans                          &trans  &trans  &trans  &trans          &trans          &trans
             >;
