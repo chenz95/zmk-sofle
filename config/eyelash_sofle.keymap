@@ -83,11 +83,11 @@
 
         layer_1 {
             bindings = <
-&kp F12         &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &kp F11
-&trans          &kp HOME         &kp END         &kp UP_ARROW     &kp DELETE       &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
-&trans          &kp DE_A_UMLAUT  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW  &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LEFT_SHIFT  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE      &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
+&kp F12         &kp F1           &kp F2          &kp F3          &kp F4           &kp F5        &mmv MOVE_UP     &kp F6      &kp F7           &kp F8      &kp F9           &kp F10           &kp DE_SZ
+&trans          &kp HOME         &kp END         &kp UP_ARROW    &kp DELETE       &mkp MB4      &mmv MOVE_DOWN   &kp PG_UP   &kp DE_U_UMLAUT  &kp UP      &kp DE_O_UMLAUT  &kp MINUS         &kp EQUAL
+&trans          &kp DE_A_UMLAUT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mkp MB5      &mmv MOVE_LEFT   &kp PG_DN   &kp LEFT         &kp DOWN    &kp RIGHT        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp LEFT_SHIFT  &bt BT_DISC 0    &bt BT_CLR_ALL  &bt BT_NXT      &bt BT_PRV       &bt BT_CLR    &mmv MOVE_RIGHT  &kp DELETE  &kp DELETE       &kp INSERT  &kp F11          &kp F12           &trans
+&kp C_MUTE      &trans           &trans          &trans          &trans           &trans        &mkp LCLK        &trans      &trans           &trans      &trans           &trans
             >;
 
             display-name = "left-l1";
