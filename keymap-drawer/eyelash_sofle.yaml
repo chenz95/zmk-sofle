@@ -79,7 +79,7 @@ layers:
   - F9
   - F10
   - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD MINUS AND UNDERSCORE)))
-  - '&macro1'
+  - {t: '$$mdi:transfer$$', type: trans}
   - HOME
   - END
   - $$mdi:arrow-up-bold$$
@@ -92,7 +92,7 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SEMICOLON AND COLON))
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&macro1'
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -198,7 +198,7 @@ layers:
   right:
   - KP NUMLOCK
   - {t: '$$mdi:transfer$$', type: trans}
-  - '@'
+  - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Q)))
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -246,7 +246,7 @@ layers:
   - HOME
   - END
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD MINUS AND UNDERSCORE)))
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:bluetooth-off$$
@@ -273,7 +273,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&macro1'
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB TOG
   - RGB BRI
