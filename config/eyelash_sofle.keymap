@@ -60,7 +60,7 @@
         macro1: macro1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp S &kp G &kp X &kp SEMI &kp LS(B) &kp G &kp LS(O) &kp LS(H) &kp H &kp N &kp LS(J) &kp B &kp N1 &kp N9 &kp N9 &kp N5>;
+            bindings = <&kp S &kp G &kp X &kp DE_SEMI &kp LS(B) &kp G &kp LS(O) &kp LS(H) &kp H &kp N &kp LS(J) &kp B &kp N1 &kp N9 &kp N9 &kp N5>;
             label = "macro1";
         };
     };
